@@ -7,9 +7,10 @@
   "aboutPageTimeline": [
     {
       "title": "Jersuma Trading P.L.C",
-      "timeline": "Full Stack Web Developer (Jun 2019 – Nov 2021)",
-      "description": "Played a pivotal role in developing various web applications, managing both front-end and back-end elements, including the design of RESTful APIs and user-friendly interfaces using React and Angular. Engaged in rigorous code reviews and testing with tools like Jest and Cypress, maintaining high-quality standards"
+      "timeline": "Junior Web Developer Aug 2018 – Oct 2018",
+      "description": "Developed and maintained dynamic websites and web applications, ensuring cross-browser compatibility and optimal responsiveness across devices using HTML, CSS, JavaScript, and libraries like jQuery. Collaborated closely with design teams to translate wireframes into functional web pages"
     },
+
     {
       "title": "Jersuma Trading P.L.C",
       "timeline": "Fronted Web Developer (Oct 2018 – Jun 2019)",
@@ -17,8 +18,8 @@
     },
     {
       "title": "Jersuma Trading P.L.C",
-      "timeline": "Junior Web Developer Aug 2018 – Oct 2018",
-      "description": "Developed and maintained dynamic websites and web applications, ensuring cross-browser compatibility and optimal responsiveness across devices using HTML, CSS, JavaScript, and libraries like jQuery. Collaborated closely with design teams to translate wireframes into functional web pages"
+      "timeline": "Full Stack Web Developer (Jun 2019 – Nov 2021)",
+      "description": "Played a pivotal role in developing various web applications, managing both front-end and back-end elements, including the design of RESTful APIs and user-friendly interfaces using React and Angular. Engaged in rigorous code reviews and testing with tools like Jest and Cypress, maintaining high-quality standards"
     },
 
     {
@@ -27,6 +28,6 @@
       "description": "Completed my higher education at Maharishi International University. Took important courses like Object Oriented Programming, Server Side Programming, Web Application Development I, Web Application Development II and Web Application Development III."
     }
   ],
-  "location": "Fairfield, Iowa, USA",
+  "location": "Dallas, Texas, USA",
   "email": "mihret.a.getachew@gmail.com"
 }
