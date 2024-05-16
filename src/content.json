@@ -7,18 +7,18 @@
   "aboutPageTimeline": [
     {
       "title": "Jersuma Trading P.L.C",
-      "timeline": "Junior Web Developer Aug 2018 – Oct 2018",
+      "timeline": "Junior Web Developer (Feb 2020 – May 2020)",
       "description": "Developed and maintained dynamic websites and web applications, ensuring cross-browser compatibility and optimal responsiveness across devices using HTML, CSS, JavaScript, and libraries like jQuery. Collaborated closely with design teams to translate wireframes into functional web pages"
     },
 
     {
       "title": "Jersuma Trading P.L.C",
-      "timeline": "Fronted Web Developer (Oct 2018 – Jun 2019)",
+      "timeline": "Fronted Web Developer (May 2020 – Feb 2021)",
       "description": "Developed responsive and user-friendly web interfaces using HTML, CSS, JavaScript, React, and Angular, with state management through Redux and Context API, focusing on performance optimizations.Employed modern development tools such as Git and Agile methodologies, and integrated design trends using Material UI and testing frameworks like Cypress to ensure high-quality, bug-free outputs."
     },
     {
       "title": "Jersuma Trading P.L.C",
-      "timeline": "Full Stack Web Developer (Jun 2019 – Nov 2021)",
+      "timeline": "Full Stack Web Developer (Feb 2021 – Jul 2023)",
       "description": "Played a pivotal role in developing various web applications, managing both front-end and back-end elements, including the design of RESTful APIs and user-friendly interfaces using React and Angular. Engaged in rigorous code reviews and testing with tools like Jest and Cypress, maintaining high-quality standards"
     },
 
