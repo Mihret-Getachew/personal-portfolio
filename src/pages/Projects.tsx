@@ -59,7 +59,6 @@ function Projects() {
   ];
 
   const mentions = [
-
     {
       id: 2,
       title: "Advent of JavaScript (2022)",
@@ -73,8 +72,7 @@ function Projects() {
       title: "Restaurant Website",
       description_short:
         "An html,css and js based restaurant website that is fully responsive.",
-      github_link:
-        "https://github.com/Mihret-Getachew/restuarant-website-two",
+      github_link: "https://github.com/Mihret-Getachew/restuarant-website-two",
     },
 
     {
@@ -82,8 +80,7 @@ function Projects() {
       title: "Course Management API",
       description_short:
         "This RESTful API uses Express.js for server operations and MongoDB to store data, focusing on managing educational content.",
-      github_link:
-        "https://github.com/Mihret-Getachew/course-management",
+      github_link: "https://github.com/Mihret-Getachew/course-management",
     },
 
     {
@@ -91,8 +88,7 @@ function Projects() {
       title: "Playlist Application",
       description_short:
         "This comprehensive web application provides a platform for users to manage their music playlists through a RESTful API",
-      github_link:
-        "https://github.com/Mihret-Getachew/playlist-application",
+      github_link: "https://github.com/Mihret-Getachew/playlist-application",
     },
 
     {
@@ -100,25 +96,30 @@ function Projects() {
       title: "Pet Finder CLI",
       description_short:
         "A terminal application built with TypeScript that connects to the Pet Finder API",
-      github_link:
-        "https://github.com/Mihret-Getachew/MAP-Project",
+      github_link: "https://github.com/Mihret-Getachew/MAP-Project",
     },
-
 
     {
       id: 8,
       title: "Restaurant Website",
       description_short:
         "An html,css and js based restaurant website that is fully responsive.",
-      github_link:
-        "https://github.com/Mihret-Getachew/restuarant-website-two",
+      github_link: "https://github.com/Mihret-Getachew/restuarant-website-two",
     },
+  ];
 
+  const openSourceProjects = [
+    {
+      id: 12,
+      title: "Express App Generator",
+      description_short:
+        "A lightweight and performant TypeScript project that helps generate a structure for Express.js and TypeScript RestApi",
+      github_link: "https://github.com/Mihret-Getachew/express-app-generator",
+    },
   ];
 
   return (
     <main className={projectStyles.container} id="WorkSection">
-
       <h3>My Projects</h3>
 
       <div className={projectStyles.cards__container}>
@@ -127,20 +128,36 @@ function Projects() {
         ))}
       </div>
 
+      <h3>Open Source Project</h3>
 
-      <h4>Noteworthy Project Mentions</h4>
-      <div className={projectStyles.mentionContainer}>
-        {mentions.map(
+      <div
+        className={projectStyles.mentionContainer}
+        style={{ marginBottom: "24px" }}
+      >
+        {openSourceProjects.map(
           ({ id, title, description_short, github_link }) => (
             <SideProject
               key={id}
               title={title}
               description={description_short}
               github={github_link}
-            // external_link={external_link}
+              // external_link={external_link}
             />
           )
         )}
+      </div>
+
+      <h4>Noteworthy Project Mentions</h4>
+      <div className={projectStyles.mentionContainer}>
+        {mentions.map(({ id, title, description_short, github_link }) => (
+          <SideProject
+            key={id}
+            title={title}
+            description={description_short}
+            github={github_link}
+            // external_link={external_link}
+          />
+        ))}
       </div>
     </main>
   );
