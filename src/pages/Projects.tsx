@@ -99,13 +99,13 @@ function Projects() {
       github_link: "https://github.com/Mihret-Getachew/MAP-Project",
     },
 
-    {
-      id: 8,
-      title: "Restaurant Website",
-      description_short:
-        "An html,css and js based restaurant website that is fully responsive.",
-      github_link: "https://github.com/Mihret-Getachew/restuarant-website-two",
-    },
+    // {
+    //   id: 8,
+    //   title: "Restaurant Website",
+    //   description_short:
+    //     "An html,css and js based restaurant website that is fully responsive.",
+    //   github_link: "https://github.com/Mihret-Getachew/restuarant-website-two",
+    // },
   ];
 
   const openSourceProjects = [
